@@ -5,6 +5,7 @@ background: linear-gradient(90deg, rgb(74, 132, 240) 0%, rgb(34, 194, 68) 35%, r
 border: 4px ridge black;
 margin-left: auto;
 margin-right: auto;
+width: 70em;
 }
 #site-header{
     color: rgb(255, 253, 249);
