@@ -3,28 +3,22 @@ body{
 background: rgb(10, 180, 24);
 background: linear-gradient(90deg, rgb(74, 132, 240) 0%, rgb(34, 194, 68) 35%, rgb(175, 233, 15) 100%);
 border: 4px ridge black;
+margin-left: auto;
+margin-right: auto;
 }
 #site-header{
     color: rgb(255, 253, 249);
-    background-color: black;
     padding-block: 10px;
-    font-size: 50px;
+    font-size: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    
+    background-color: black;
 }
 #id-1{
     color:cyan;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     text-align: center;
-}
-.class-1{
-    background-color: chartreuse;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
 }
 nav {
   text-align: center;
@@ -38,4 +32,23 @@ nav {
     padding-right: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+#img-container{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: blanchedalmond;
+    padding-block: 1em;
+    padding-inline: 1em;
+    border: 4px ridge black;
+    margin-inline: 2em;
+}
+
+/* For testing purposes*/
+.class-1{
+    background-color: chartreuse;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
 }
