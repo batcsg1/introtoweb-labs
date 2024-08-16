@@ -1,0 +1,62 @@
+body {
+background-image: linear-gradient(to bottom, #e0fff9, #d0fef8, #c0fdf9, #adfcfb, #99fbff);
+border: 4px ridge black;
+margin-left: auto;
+margin-right: auto;
+width: 70em;
+}
+#site-header{
+    color: rgb(255, 253, 249);
+    padding-block: 10px;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: black;
+}
+#id-1{
+    color:cyan;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+}
+nav {
+    text-align: center;   
+}
+nav a{
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.class-2{
+    display: inline-flex;
+    background-color: yellow;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;   
+}
+#img-container{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: blanchedalmond;
+    padding-block: 1em;
+    padding-inline: 1em;
+    border: 4px ridge black;
+    margin-inline: 2em;
+    border-radius: 10px;
+}
+#img-container h2{
+    text-transform: uppercase;
+}
+
+/* For testing purposes*/
+.class-1{
+    background-color: chartreuse;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
