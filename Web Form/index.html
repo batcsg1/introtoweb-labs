@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar System Quiz</title>
+</head>
+<body>
+    <h1>Sam's Solar System Quiz</h1>
+
+    <form action="/my-handling-form-page" id="quizForm">
+        <!--Question 1-->
+        <h2>What is the eighth planet in the Solar System?</h2>       
+        <ul>
+            <li>
+                <input type="radio" id="q1-option1" name="q1" value="Neptune">
+                <label for="q1-option1">Neptune</label>
+            </li>
+            <li>
+                <input type="radio" id="q1-option2" name="q1" value="Pluto">
+                <label for="q1-option2">Pluto</label>
+            </li>
+            <li>
+                <input type="radio" id="q1-option3" name="q1" value="Jupiter">
+                <label for="q1-option3">Jupiter</label>
+            </li>
+        </ul> 
+   
+        <!--Question 2-->
+        <h2>What year did the astronauts land on the moon?</h2>
+        <input type="text" name="q2" id="a1">
+       
+        <!--Question 3-->
+        <h2>What are the 4 largest moons of the planet Jupiter?</h2>
+        <ul>
+            <li>
+                <input type="checkbox" id="q3-option1" name="a1">
+                <label for="Ganymede">Ganymede</label>
+                <input type="checkbox" id="q3-option2" name="a2">
+                <label for="Callisto">Callisto</label>
+                <input type="checkbox" id="q3-option3" name="a3">
+                <label for="Io">Io</label>
+                <input type="checkbox" id="q3-option4" name="a4">
+                <label for="Europa">Europa</label>
+                <input type="checkbox" id="q3-option5" name="a4">
+                <label for="Triton">Triton</label>
+                <input type="checkbox" id="q3-option6" name="a4">
+                <label for="Europa">Europa</label>
+            </li>
+
+        </ul>
+        <!--Submit button-->
+        <li class="button">
+            <button type="submit">Submit your answers</button>
+        </li>
+    </form>
+<script src="main.js"></script>
+</body>
+</html>
